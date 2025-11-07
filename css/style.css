@@ -1,5 +1,34 @@
 /********** Template CSS **********/
 
+/* Theme color overrides for AVCIOĞLU DEMİR ÇELİK */
+:root {
+    /* Primary brand color (altın sarısı) */
+    --bs-primary: #b8a314 ;
+    /* Secondary and contrast tweaks */
+    --bs-secondary: #5a5a5a;
+    --bs-white: #ffffff;
+    --bs-dark: #111111;
+}
+
+/* Explicit overrides to ensure header/primary elements use the gold color */
+.bg-primary {
+    background-color: #b8a314  !important;
+}
+.text-primary {
+    color: #b8a314  !important;
+}
+.btn-primary {
+    background-color: #b8a314  !important;
+    border-color: #b8a314  !important;
+    color: #111 !important; /* dark text over gold for contrast */
+}
+.feature-item a:hover,
+.feature-item a:hover::after,
+.service .service-inner::before,
+.team .team-item .team-social {
+    background: #b8a314  !important;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
