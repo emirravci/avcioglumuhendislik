@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.avcioglumuhendislik.com/sitemap.xml
+
+# Disallow admin or private directories if any
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all images and CSS/JS files
+Allow: /img/
+Allow: /css/
+Allow: /js/
+Allow: /lib/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+

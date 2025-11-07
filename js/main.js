@@ -27,10 +27,66 @@
 
 
     // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 2000
+    // Facts counter — robust IntersectionObserver-based animation
+    // Detect suffix and numeric target per element
+    $('[data-toggle="counter-up"]').each(function () {
+        var $el = $(this);
+        var txt = $el.text().trim();
+        var suffix = txt.endsWith('+') ? '+' : '';
+        $el.data('counterup-suffix', suffix);
+        if (!$el.attr('data-num')) {
+            var digits = txt.replace(/[^0-9.]/g, '');
+            if (digits) $el.attr('data-num', digits);
+        }
+        // ensure starting value is 0 for animation
+        if ($el.text().trim() === '' || $el.text().trim() === '0') {
+            $el.text('0');
+        }
     });
+
+    // fallback animation using requestAnimationFrame
+    function animateCounter(el, target, duration, suffix) {
+        target = parseInt(target, 10) || 0;
+        var start = null;
+        var initial = 0;
+        function step(timestamp) {
+            if (!start) start = timestamp;
+            var progress = timestamp - start;
+            var percent = Math.min(progress / duration, 1);
+            var current = Math.floor(initial + (target - initial) * percent);
+            el.textContent = current + (suffix || '');
+            if (percent < 1) {
+                window.requestAnimationFrame(step);
+            }
+        }
+        window.requestAnimationFrame(step);
+    }
+
+    // Use IntersectionObserver to trigger counters when visible
+    var counters = Array.prototype.slice.call(document.querySelectorAll('[data-toggle="counter-up"]'));
+    if ('IntersectionObserver' in window && counters.length) {
+        var io = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    var el = entry.target;
+                    var $el = $(el);
+                    var target = el.getAttribute('data-num') || $el.text().replace(/[^0-9]/g, '');
+                    var suffix = $el.data('counterup-suffix') || '';
+                    animateCounter(el, target, 2000, suffix);
+                    observer.unobserve(el);
+                }
+            });
+        }, {threshold: 0.2});
+        counters.forEach(function (c) { io.observe(c); });
+    } else {
+        // Fallback: animate all counters immediately
+        counters.forEach(function (el) {
+            var $el = $(el);
+            var target = el.getAttribute('data-num') || $el.text().replace(/[^0-9]/g, '');
+            var suffix = $el.data('counterup-suffix') || '';
+            animateCounter(el, target, 2000, suffix);
+        });
+    }
 
 
     // Experience
