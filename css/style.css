@@ -709,6 +709,35 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.1;
 }
 
+/* ===== Compact Page Title ===== */
+.page-title-bar {
+    background: var(--bg-white);
+    padding: 1.25rem 0 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.page-title-bar .page-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0;
+    color: var(--text-dark);
+}
+
+.page-title-bar + .page-content {
+    padding-top: 1.5rem;
+}
+
+.appoinment-compact {
+    padding: 48px 0 64px !important;
+    background-attachment: scroll !important;
+}
+
+.appoinment-compact .container {
+    padding-top: 0 !important;
+}
+
 /* ===== About Section ===== */
 .about-img {
     position: relative;
@@ -1765,3 +1794,78 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-dark);
 }
+
+/* ===== Swiper Navigation Styles ===== */
+.carousel-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+#billboard {
+    position: relative;
+    width: 100%;
+}
+
+.main-swiper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.swiper-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background: rgba(212, 175, 55, 0.9);
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 50;
+    transition: all 0.3s ease;
+    color: var(--secondary);
+}
+
+.swiper-icon:hover {
+    background: var(--primary);
+    box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.swiper-icon i {
+    font-size: 18px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.swiper-arrow-prev {
+    left: 20px;
+}
+
+.swiper-arrow-next {
+    right: 20px;
+}
+
+@media (max-width: 768px) {
+    .swiper-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .swiper-icon i {
+        font-size: 14px;
+    }
+
+    .swiper-arrow-prev {
+        left: 10px;
+    }
+
+    .swiper-arrow-next {
+        right: 10px;
+    }
+}
+
+
