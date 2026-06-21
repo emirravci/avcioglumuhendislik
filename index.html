@@ -78,6 +78,12 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload carousel images to avoid flash during slide transitions -->
+    <link rel="preload" as="image" href="img/carousel-1.jpg">
+    <link rel="preload" as="image" href="img/carousel-2.jpg">
+    <link rel="preload" as="image" href="img/carousel-3.jpg">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
         rel="stylesheet">
 
@@ -240,22 +246,22 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                         <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
-                        <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
-                        <a href="service.html" class="nav-item nav-link">Hizmetler</a>
+                        <a href="umraniye-hakkimizda.html" class="nav-item nav-link">Hakkımızda</a>
+                        <a href="umraniye-hizmetler.html" class="nav-item nav-link">Hizmetler</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="feature.html" class="dropdown-item">Özellikler</a>
+                                <a href="umraniye-ozellikler.html" class="dropdown-item">Özellikler</a>
                                 <!-- Ekibimiz sayfası kaldırıldı -->
-                                <!-- <a href="testimonial.html" class="dropdown-item">Referanslar</a> -->
-                                <a href="appoinment.html" class="dropdown-item">Randevu</a>
+                                <!-- <a href="umraniye-referanslar.html" class="dropdown-item">Referanslar</a> -->
+                                <a href="umraniye-randevu.html" class="dropdown-item">Randevu</a>
                                 <!-- 404 page removed from navigation as requested -->
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">İletişim</a>
+                        <a href="umraniye-iletisim.html" class="nav-item nav-link">İletişim</a>
                     </div>
                     <div class="ms-auto d-none d-lg-block">
-                        <a href="contact.html" class="btn btn-primary py-2 px-3">Teklif Al</a>
+                        <a href="umraniye-iletisim.html" class="btn btn-primary py-2 px-3">Teklif Al</a>
                     </div>
                 </div>
             </nav>
@@ -265,52 +271,67 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-6 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slayt 1">
-                    <img class="img-fluid" src="img/carousel-1.jpg" alt="Profesyonel Metal İşleri ve Kaynak Hizmetleri">
-                </button>
-                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slayt 2">
-                    <img class="img-fluid" src="img/carousel-2.jpg" alt="Ferforje ve Çelik İşleri">
-                </button>
-                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slayt 3">
-                    <img class="img-fluid" src="img/carousel-3.jpg" alt="Demir Çelik ve Ferforje Üretim">
-                </button>
-            </div>
+    <div class="container-fluid p-0 carousel-section wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="false" data-bs-interval="5000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="AVCIOĞLU DEMİR ÇELİK - Profesyonel Metal İşleri ve Kaynak Hizmetleri">
-                    <div class="carousel-caption">
-                        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn">Profesyonel Demir Çelik ve Kaynak Hizmetleri
-                        </h1>
-                        <p class="lead mb-4">Ümraniye'de kaliteli ferforje, kaynak ve demir çelik işleri için güvenilir çözüm ortağınız</p>
-                        <a href="service.html" class="btn btn-primary py-3 px-4">Hizmetlerimizi İnceleyin</a>
-                    </div>
+                    <img class="w-100" src="img/carousel-1.jpg" loading="eager" decoding="sync" alt="AVCIOĞLU DEMİR ÇELİK - Profesyonel Metal İşleri ve Kaynak Hizmetleri">
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Ferforje ve Çelik İşleri - Ümraniye Demir Çelik Atölye">
-                    <div class="carousel-caption">
-                        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn">Özel Tasarım Ferforje ve Metal İşleri
-                        </h1>
-                        <p class="lead mb-4">Kapı, korkuluk, bahçe çitleri ve özel tasarım projeleriniz için uzman ekibimizle hizmetinizdeyiz</p>
-                        <a href="contact.html" class="btn btn-primary py-3 px-4">Hemen Teklif Alın</a>
-                    </div>
+                    <img class="w-100" src="img/carousel-2.jpg" loading="eager" decoding="sync" alt="Ferforje ve Çelik İşleri - Ümraniye Demir Çelik Atölye">
+
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-3.jpg" alt="Demir Çelik ve Ferforje Üretim - İstanbul Kaynak İşleri">
-                    <div class="carousel-caption">
-                        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn">Zamanında Teslimat ve Kaliteli İşçilik
-                        </h1>
-                        <p class="lead mb-4">Deneyimli ekibimiz ve modern ekipmanlarımızla projelerinizi zamanında ve kaliteli şekilde teslim ediyoruz</p>
-                        <a href="about.html" class="btn btn-primary py-3 px-4">Hakkımızda</a>
-                    </div>
+                    <img class="w-100" src="img/carousel-3.jpg" loading="eager" decoding="sync" alt="Demir Çelik ve Ferforje Üretim - İstanbul Kaynak İşleri">
                 </div>
             </div>
         </div>
     </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">�nceki</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Sonraki</span>
+            </button>
+        </div>
+    </div>
+
     <!-- Carousel End -->
+
+    <script>
+    // Wait until all carousel images are decoded and ready, then start Bootstrap carousel
+    (function(){
+        const carouselEl = document.getElementById('header-carousel');
+        if (!carouselEl) return;
+        const imgs = Array.from(carouselEl.querySelectorAll('img'));
+        // decode all images (returns promises)
+        const decodePromises = imgs.map(img => {
+            if ('decode' in img) {
+                try {
+                    return img.decode();
+                } catch(e){
+                    return Promise.resolve();
+                }
+            }
+            return Promise.resolve();
+        });
+
+        Promise.all(decodePromises).then(()=>{
+            // start bootstrap carousel by setting data-bs-ride
+            carouselEl.setAttribute('data-bs-ride','carousel');
+            // if bootstrap is loaded, initialize or restart carousel
+            if (window.bootstrap && bootstrap.Carousel) {
+                // create a new instance to ensure timers start
+                try { new bootstrap.Carousel(carouselEl); } catch(e){}
+            }
+        }).catch(()=>{
+            carouselEl.setAttribute('data-bs-ride','carousel');
+        });
+    })();
+    </script>
 
 
     <!-- About Start -->
@@ -406,13 +427,13 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                            <i class="fa fa-tools fa-2x text-white"></i>
+                            <i class="fa fa-cog fa-2x text-white"></i>
                         </div>
                         <div class="p-5 pt-0">
-                            <h5 class="text-uppercase">Kaliteli Ekipman</h5>
-                            <p>Güncel ve güvenilir ekipmanlarla çalışmalar yapıyoruz.</p>
+                            <h5 class="text-uppercase">Trapez Saç Çevirme</h5>
+                            <p>Cephe kaplama ve dekoratif trapez saç çevirme işçiliği. Kaliteli malzeme ve profesyonel uygulamalar.</p>
                             <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                                href="#"><b class="bg-white pe-3">Devamını Oku</b> <i
+                                href="umraniye-trapez-sac-cevirme.html"><b class="bg-white pe-3">Devamını Oku</b> <i
                                     class="bi bi-arrow-right bg-white ps-3"></i></a>
                         </div>
                     </div>
@@ -902,11 +923,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase text-light mb-4">Hızlı Bağlantılar</h5>
-                    <a class="btn btn-link" href="about.html">Hakkımızda</a>
-                    <a class="btn btn-link" href="contact.html">İletişim</a>
-                    <a class="btn btn-link" href="service.html">Hizmetlerimiz</a>
-                    <a class="btn btn-link" href="appoinment.html">Randevu Al</a>
-                    <a class="btn btn-link" href="feature.html">Özelliklerimiz</a>
+                    <a class="btn btn-link" href="umraniye-hakkimizda.html">Hakkımızda</a>
+                    <a class="btn btn-link" href="umraniye-iletisim.html">İletişim</a>
+                    <a class="btn btn-link" href="umraniye-hizmetler.html">Hizmetlerimiz</a>
+                    <a class="btn btn-link" href="umraniye-randevu.html">Randevu Al</a>
+                    <a class="btn btn-link" href="umraniye-ozellikler.html">Özelliklerimiz</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase text-light mb-4">Çalışma Saatleri</h5>
@@ -994,3 +1015,5 @@
 </body>
 
 </html>
+
+

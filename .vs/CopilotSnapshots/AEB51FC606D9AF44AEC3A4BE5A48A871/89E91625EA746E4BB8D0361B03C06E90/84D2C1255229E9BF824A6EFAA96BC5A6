@@ -1,0 +1,987 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <style>
+        .whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp_float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp_icon {
+  width: 35px;
+  height: 35px;
+}
+@media screen and (max-width: 767px) {
+  .whatsapp_float {
+    bottom: 80px;
+    right: 15px;
+  }
+}
+
+    </style>
+    <meta charset="utf-8">
+    <title>AVCIOĞLU DEMİR ÇELİK - Ümraniye Demir Çelik, Kaynak ve Ferforje İşleri</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="demir çelik, ferforje, kaynak işleri, Ümraniye demir çelik, ferforje kapı, merdiven korkuluğu, balkon korkuluğu, bahçe kapısı, çit korkuluk, demir işleri, çelik kaynak, boru kaynağı, demir atölye, İstanbul demir çelik, ferforje üretim, kaynak atölye, demir montaj, çelik işleme, metal işleri">
+    <meta name="description" content="AVCIOĞLU DEMİR ÇELİK - Ümraniye'de demir çelik, kaynak ve ferforje işleri yapan profesyonel atölye. Ferforje kapı, merdiven korkuluğu, balkon korkuluğu, bahçe kapısı, çit korkuluk üretimi ve montaj hizmetleri. Uygun fiyat, kaliteli işçilik, zamanında teslimat.">
+    <meta name="author" content="AVCIOĞLU DEMİR ÇELİK">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Turkish">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="https://www.avcioglumuhendislik.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.avcioglumuhendislik.com/">
+    <meta property="og:title" content="AVCIOĞLU DEMİR ÇELİK - Ümraniye Demir Çelik, Kaynak ve Ferforje İşleri">
+    <meta property="og:description" content="Ümraniye'de demir çelik, kaynak ve ferforje işleri yapan profesyonel atölye. Ferforje kapı, merdiven korkuluğu, balkon korkuluğu üretimi ve montaj hizmetleri.">
+    <meta property="og:image" content="https://www.avcioglumuhendislik.com/avcioglulogo.png">
+    <meta property="og:locale" content="tr_TR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.avcioglumuhendislik.com/">
+    <meta property="twitter:title" content="AVCIOĞLU DEMİR ÇELİK - Ümraniye Demir Çelik, Kaynak ve Ferforje İşleri">
+    <meta property="twitter:description" content="Ümraniye'de demir çelik, kaynak ve ferforje işleri yapan profesyonel atölye. Ferforje kapı, merdiven korkuluğu, balkon korkuluğu üretimi ve montaj hizmetleri.">
+    <meta property="twitter:image" content="https://www.avcioglumuhendislik.com/avcioglulogo.png">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload carousel images to avoid flash during slide transitions -->
+    <link rel="preload" as="image" href="img/carousel-1.jpg">
+    <link rel="preload" as="image" href="img/carousel-2.jpg">
+    <link rel="preload" as="image" href="img/carousel-3.jpg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "AVCIOĞLU DEMİR ÇELİK",
+      "image": "https://www.avcioglumuhendislik.com/avcioglulogo.png",
+      "@id": "https://www.avcioglumuhendislik.com/",
+      "url": "https://www.avcioglumuhendislik.com/",
+      "telephone": "+905076071992",
+      "email": "avcioglumuhendislik@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Elmalıkent, Melekler Sk. No:7 D:A",
+        "addressLocality": "Ümraniye",
+        "addressRegion": "İstanbul",
+        "postalCode": "34000",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.03763757134641,
+        "longitude": 29.09793117589995
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/avcioglumuhendislik",
+        "https://www.instagram.com/avcioglumuhendislik"
+      ],
+      "priceRange": "$$",
+      "description": "Ümraniye'de demir çelik, kaynak ve ferforje işleri yapan profesyonel atölye. Ferforje kapı, merdiven korkuluğu, balkon korkuluğu, bahçe kapısı, çit korkuluk üretimi ve montaj hizmetleri.",
+      "areaServed": {
+        "@type": "City",
+        "name": "İstanbul"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Demir Çelik ve Ferforje Hizmetleri",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ferforje Kapı Üretimi",
+              "description": "Özel ölçü ferforje kapı imalatı ve montaj hizmeti"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Merdiven ve Balkon Korkuluğu",
+              "description": "Merdiven ve balkon için dayanıklı korkuluk çözümleri"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bahçe Kapısı",
+              "description": "Bahçe ve villa tip kapı üretimi ile güvenli çözümler"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kaynak ve Montaj",
+              "description": "Profesyonel kaynak ve montaj hizmetleri"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Demir Çelik İşleri",
+              "description": "Genel demir çelik işleri ve özel tasarım çözümler"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                    <a href="index.html">
+                    <img src="avcioglulogo.png" alt="AVCIOĞLU DEMİR ÇELİK" style="height:48px;">
+                </a>
+                <div class="ms-auto d-flex align-items-center">
+                    <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>Elmalıkent, Melekler Sk. No:7 D:A, 34000 Ümraniye/İstanbul</small>
+                    <small class="ms-4"><i class="fa fa-envelope me-3"></i>avcioglumuhendislik@gmail.com</small>
+                    <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>0507 607 19 92</small>
+                    <div class="ms-3 d-flex">
+                        <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://www.facebook.com/avcioglumuhendislik" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://www.instagram.com/avcioglumuhendislik" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://wa.me/905076071992" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <img src="avcioglulogo.png" alt="AVCIOĞLU DEMİR ÇELİK" style="height:40px;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active">Anasayfa</a>
+                        <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                        <a href="service.html" class="nav-item nav-link">Hizmetler</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
+                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                                <a href="feature.html" class="dropdown-item">Özellikler</a>
+                                <!-- Ekibimiz sayfası kaldırıldı -->
+                                <!-- <a href="testimonial.html" class="dropdown-item">Referanslar</a> -->
+                                <a href="appoinment.html" class="dropdown-item">Randevu</a>
+                                <!-- 404 page removed from navigation as requested -->
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">İletişim</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-block">
+                        <a href="contact.html" class="btn btn-primary py-2 px-3">Teklif Al</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 carousel-section wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" loading="eager" alt="AVCIOĞLU DEMİR ÇELİK - Profesyonel Metal İşleri ve Kaynak Hizmetleri">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" loading="eager" alt="Ferforje ve Çelik İşleri - Ümraniye Demir Çelik Atölye">
+
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-3.jpg" loading="eager" alt="Demir Çelik ve Ferforje Üretim - İstanbul Kaynak İşleri">
+                </div>
+            </div>
+        </div>
+    </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">�nceki</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Sonraki</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid pt-6 pb-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid w-100" src="img/about.jpg" alt="AVCIOĞLU DEMİR ÇELİK Atölye - Demir Çelik ve Kaynak İşleri">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="display-6 text-uppercase mb-4">Ümraniye'nin Güvenilir Demir Çelik ve Kaynak Uzmanı</h1>
+                    <p class="mb-4">AVCIOĞLU DEMİR ÇELİK olarak, demir çelik, kaynak ve ferforje işlerinde yılların deneyimi ile hizmet veriyoruz. Sertifikalı ekibimiz, modern ekipmanlarımız ve kaliteli malzemelerimizle projelerinizi zamanında ve en yüksek standartlarda teslim ediyoruz. Müşteri memnuniyeti odaklı çalışma prensibimiz ile sektörde öncü konumdayız.</p>
+                    <div class="row g-5 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-xl-square bg-light me-3">
+                                    <i class="fa fa-users-cog fa-2x text-primary"></i>
+                                </div>
+                                <h5 class="lh-base text-uppercase mb-0">Sertifikalı Uzman & Ekip</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-xl-square bg-light me-3">
+                                    <i class="fa fa-tachometer-alt fa-2x text-primary"></i>
+                                </div>
+                                <h5 class="lh-base text-uppercase mb-0">Hızlı & Güvenilir Hizmet</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <p><i class="fa fa-check-square text-primary me-3"></i><strong>Ferforje Kapı ve Kapı Kanatları:</strong> Özel ölçü ve tasarım ferforje kapı üretimi, montaj ve bakım hizmetleri.</p>
+                    <p><i class="fa fa-check-square text-primary me-3"></i><strong>Merdiven ve Balkon Korkulukları:</strong> Güvenlik standartlarına uygun, estetik ve dayanıklı korkuluk sistemleri.</p>
+                    <p><i class="fa fa-check-square text-primary me-3"></i><strong>Bahçe Kapısı ve Çit Sistemleri:</strong> Villa ve bahçeler için özel tasarım güvenlik çözümleri.</p>
+                    <p><i class="fa fa-check-square text-primary me-3"></i><strong>Kaynak ve Montaj Hizmetleri:</strong> Profesyonel kaynak işleri, onarım ve bakım hizmetleri.</p>
+                    <div class="border border-5 border-primary p-4 text-center mt-4">
+                            <h4 class="lh-base text-uppercase mb-0">Modern Ekipmanlar ve Sertifikalı Ekip ile Tüm Metal İşlerinde Uzmanız</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid pt-6 pb-6">
+        <div class="container pt-4">
+            <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-hammer fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase mb-3">Kaliteli Kaynak</h5>
+                            <p>Profesyonel kaynak çözümleriyle dayanıklı işçilik sağlıyoruz.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Devamını Oku</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-dollar-sign fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase">Uygun Fiyatlandırma</h5>
+                            <p>Rekabetçi fiyatlarla kaliteli hizmet sunuyoruz.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Devamını Oku</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-check-double fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase">En İyi Kaynakçılar</h5>
+                            <p>Uzman ekibimizle zor projelerde bile başarılı sonuçlar elde ediyoruz.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Devamını Oku</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
+                            <i class="fa fa-tools fa-2x text-white"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase">Kaliteli Ekipman</h5>
+                            <p>Güncel ve güvenilir ekipmanlarla çalışmalar yapıyoruz.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3">Devamını Oku</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid feature mt-6 mb-6 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-4"> <!-- g-0 yerine g-4 eklenerek görsel ve yazı arasına boşluk bırakıldı -->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid w-100" src="img/about.jpg" alt="AVCIOĞLU DEMİR ÇELİK Atölye - Neden Bizi Seçmelisiniz">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="mt-5">
+                        <h1 class="display-6 text-white text-uppercase mb-4 wow fadeIn" data-wow-delay="0.3s">Neden Kaynak Hizmetlerimizi Seçmelisiniz</h1>
+                        <p class="text-light mb-4 wow fadeIn" data-wow-delay="0.4s">Profesyonel ekip, zamanında teslimat ve yüksek kalite—müşterilerimizin güvenini kazanan hizmet anlayışımız budur.</p>
+                        <div class="row g-4 pt-2 mb-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                                <div class="flex-column text-center border border-5 border-primary p-5">
+                                    <h1 class="text-white" data-toggle="counter-up" data-num="999">0</h1>
+                                    <p class="text-white text-uppercase mb-0">Memnun Müşteriler</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="flex-column text-center border border-5 border-primary p-5">
+                                    <h1 class="text-white" data-toggle="counter-up" data-num="999">0</h1>
+                                    <p class="text-white text-uppercase mb-0">Tamamlanan Projeler</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-primary border-bottom-0 p-5">
+                            <div class="experience mb-4 wow fadeIn" data-wow-delay="0.6s">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="text-white text-uppercase">Deneyim</span>
+                                    <span class="text-white">90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="experience wow fadeIn" data-wow-delay="0.7s">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="text-white text-uppercase">Yapılan İşler</span>
+                                    <span class="text-white">95%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid service pt-6 pb-6">
+        <div class="container">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 text-uppercase mb-5">Güvenilir & Yüksek Kaliteli Kaynak Hizmetleri</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-1.jpg" alt="Ferforje Kapı Üretimi - AVCIOĞLU DEMİR ÇELİK">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Ferforje Kapı</h4>
+                        <p>Özel ölçü ferforje kapı imalatı ve montaj hizmeti.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-2.jpg" alt="Merdiven Korkuluğu - Demir Çelik Merdiven İmalatı">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Merdiven &amp; Korkuluk</h4>
+                        <p>Merdiven ve balkon için dayanıklı korkuluk çözümleri.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-3.jpg" alt="Balkon Korkuluğu - Estetik Demir Balkon Korkuluğu">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Balkon Korkuluğu</h4>
+                        <p>Estetik ve sağlam balkon korkulukları.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-4.jpg" alt="Bahçe Kapısı - Villa Bahçe Kapısı Üretimi">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Bahçe Kapısı</h4>
+                        <p>Bahçe ve villa tip kapı üretimi ile güvenli çözümler.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-5.jpg" alt="Çit ve Korkuluk - Bahçe Çit Sistemi">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Çit &amp; Korkuluk</h4>
+                        <p>Güvenlik odaklı çit ve bahçe korkuluk sistemleri.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-6.jpg" alt="Özel Tasarım Ferforje - Kişiye Özel Ferforje İmalatı">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Özel Tasarım Ferforje</h4>
+                        <p>Müşteri taleplerine göre özel tasarım ve üretim.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-7.jpg" alt="Kaynak ve Montaj - Profesyonel Kaynak Hizmetleri">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Kaynak &amp; Montaj</h4>
+                        <p>Profesyonel kaynak ve montaj hizmetleri.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="img/service-8.jpg" alt="Demir Onarım ve Bakım - Demir Çelik Onarım Hizmetleri">
+                            <div class="service-text px-5 pt-4">
+                    <h5 class="text-uppercase">Onarım &amp; Bakım</h4>
+                        <p>Eski yapıların onarımı ve bakım hizmetleri.</p>
+                            </div>
+                <a class="btn btn-light px-3" href="">Devamını Oku<i
+                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Appoinment Start -->
+    <div class="container-fluid appoinment mt-6 mb-6 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pt-5">
+            <div class="row gy-5 gx-0">
+                <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-6 text-uppercase text-white mb-4">Kaynak ve Metal Projelerini Zamanında Tamamlıyoruz
+                    </h1>
+                    <p class="text-white mb-5 wow fadeIn" data-wow-delay="0.4s">Deneyimli ekibimizle projelerinizi söz verdiğimiz sürede ve yüksek kaliteyle teslim ederiz.</p>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.5s">
+                        <div class="btn-lg-square bg-white">
+                            <i class="bi bi-geo-alt text-dark fs-3"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="text-white text-uppercase">Ofis Adresi</h6>
+                            <span class="text-white">Elmalıkent, Melekler Sk. No:7 D:A, 34000 Ümraniye/İstanbul</span>
+                        </div>
+                    </div>
+                    <hr class="bg-body">
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.6s">
+                        <div class="btn-lg-square bg-white">
+                            <i class="bi bi-clock text-dark fs-3"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="text-white text-uppercase">Çalışma Saatleri</h6>
+                            <span class="text-white">Pzt-Ctes 09:00-19:00, Pazar Kapalı</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="bg-white p-5">
+                        <h2 class="text-uppercase mb-4">Online Randevu</h2>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control border-0 bg-light" id="name" placeholder="Adınız">
+                                    <label for="name">Adınız</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control border-0 bg-light" id="mail" placeholder="E-posta Adresiniz">
+                                    <label for="mail">E-posta Adresiniz</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control border-0 bg-light" id="mobile" placeholder="Telefon Numaranız">
+                                    <label for="mobile">Telefon Numaranız</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <select class="form-select border-0 bg-light" id="service">
+                                        <option selected>Çelik Kaynağı</option>
+                                        <option value="">Boru Kaynağı</option>
+                                    </select>
+                                    <label for="service">Hizmet Seçin</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control border-0 bg-light" placeholder="Mesajınızı buraya yazın" id="message"
+                                        style="height: 130px"></textarea>
+                                    <label for="message">Mesaj</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Gönder</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appoinment End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-fluid team pt-6 pb-6">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Alex Robin</h5>
+                            <span>Kaynakçı</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Andrew Bon</h5>
+                            <span>Kaynakçı</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Martin Tompson</h5>
+                            <span>Kaynakçı</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Clarabelle Samber</h5>
+                            <span>Kaynakçı</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid pt-6 pb-6">
+        <div class="container">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 text-uppercase mb-5">İşlerimiz Hakkında Yorumlar</h1>
+            </div>
+            <div class="elfsight-app-ff166cc4-95eb-449d-9799-4e38f8fc1a4a" data-elfsight-app-lazy></div>
+
+            <!-- <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-img">
+                        <div class="animated flip infinite">
+                            <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                        </div>
+                        <div class="animated flip infinite">
+                            <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="animated flip infinite">
+                            <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                        </div>
+                        <div class="animated flip infinite">
+                            <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                                <div class="ms-3">
+                                    <div class="mb-2">
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                    </div>
+                                    <h5 class="text-uppercase">Müşteri Adı</h5>
+                                    <span>Meslek</span>
+                                </div>
+                            </div>
+                            <p class="fs-5">Hizmetlerinden çok memnun kaldım. İş kaliteli ve zamanında tamamlandı.</p>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                                <div class="ms-3">
+                                    <div class="mb-2">
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                    </div>
+                <h5 class="text-uppercase">Müşteri Adı</h5>
+                    <span>Meslek</span>
+                                </div>
+                            </div>
+                            <p class="fs-5">Profesyonel ekip, beklentilerimizi fazlasıyla karşıladı. Tavsiye ederim.</p>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                                <div class="ms-3">
+                                    <div class="mb-2">
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                    </div>
+                                    <h5 class="text-uppercase">Müşteri Adı</h5>
+                                    <span>Meslek</span>
+                                </div>
+                            </div>
+                            <p class="fs-5">İşçilik ve iletişim çok iyiydi. Yeniden çalışmayı düşünürüm.</p>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="d-flex align-items-center mb-4">
+                                <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
+                                <div class="ms-3">
+                                    <div class="mb-2">
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                        <i class="far fa-star text-primary"></i>
+                                    </div>
+                                    <h5 class="text-uppercase">Müşteri Adı</h5>
+                                    <span>Meslek</span>
+                                </div>
+                            </div>
+                            <p class="fs-5">Hızlı ve güvenilir hizmet. Memnun kaldık.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid newsletter mt-6 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="bg-white p-5 mb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="display-6 text-uppercase mb-4">Bülten</h1>
+                        <div class="d-flex">
+                            <i class="far fa-envelope-open fa-3x text-primary me-4"></i>
+                            <p class="fs-5 fst-italic mb-0">E-posta bültenimize abone olarak en son haberleri ve kampanyaları alın.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control border-0 bg-light" id="mail" placeholder="E-posta Adresiniz">
+                            <label for="mail">E-posta Adresiniz</label>
+                        </div>
+                        <button class="btn btn-primary w-100 py-3" type="submit">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase text-light mb-4">Ofisimiz</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Elmalıkent, Melekler Sk. No:7 D:A, 34000 Ümraniye/İstanbul</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>0507 607 19 92</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>avcioglumuhendislik@gmail.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-light me-2" href="https://www.facebook.com/avcioglumuhendislik" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-light me-2" href="https://www.instagram.com/avcioglumuhendislik" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-light me-2" href="https://wa.me/905076071992" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase text-light mb-4">Hızlı Bağlantılar</h5>
+                    <a class="btn btn-link" href="about.html">Hakkımızda</a>
+                    <a class="btn btn-link" href="contact.html">İletişim</a>
+                    <a class="btn btn-link" href="service.html">Hizmetlerimiz</a>
+                    <a class="btn btn-link" href="appoinment.html">Randevu Al</a>
+                    <a class="btn btn-link" href="feature.html">Özelliklerimiz</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase text-light mb-4">Çalışma Saatleri</h5>
+                    <p class="text-uppercase mb-0">Pazartesi - Cuma</p>
+                    <p>09:00 - 19:00</p>
+                    <p class="text-uppercase mb-0">Cumartesi</p>
+                    <p>09:00 - 19:00</p>
+                    <p class="text-uppercase mb-0">Pazar</p>
+                    <p>Kapalı</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase text-light mb-4">Galeri</h5>
+                    <div class="row g-1">
+                        <div class="col-4">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="img/service-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-semi-bold" href="#">AVCIOĞLU DEMİR ÇELİK</a>, Tüm Hakları Saklıdır.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    <!-- Tasarım: <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> • Dağıtım: <a href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
+            class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<!-- Elfsight Google Reviews | Untitled Google Reviews -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/905076071992" 
+   class="whatsapp_float" 
+   target="_blank" 
+   aria-label="WhatsApp">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+        alt="WhatsApp" class="whatsapp_icon">
+</a>
+
+</body>
+
+</html>
+
+
