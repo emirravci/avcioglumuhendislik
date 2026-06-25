@@ -103,28 +103,56 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-3 py-lg-0">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-hammer text-primary me-3"></i>AVCIOĞLU</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Ana Sayfa</a>
-                    <a href="umraniye-hakkimizda.html" class="nav-item nav-link">Hakkımızda</a>
-                    <a href="umraniye-hizmetler.html" class="nav-item nav-link active">Hizmetler</a>
-                    <a href="umraniye-iletisim.html" class="nav-item nav-link">İletişim</a>
-                </div>
-                <div class="ms-auto d-none d-lg-block">
-                    <a href="umraniye-iletisim.html" class="btn btn-primary py-2 px-3">Teklif Al</a>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                    <a href="index.html">
+                    <img src="avcioglulogo.png" alt="AVCIOĞLU DEMİR ÇELİK" style="height:48px;">
+                </a>
+                <div class="ms-auto d-flex align-items-center">
+                    <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>Elmalıkent, Melekler Sk. No:7 D:A, 34000 Ümraniye/İstanbul</small>
+                    <small class="ms-4"><i class="fa fa-envelope me-3"></i>avcioglumuhendislik34@gmail.com</small>
+                    <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>0507 607 19 92</small>
+                    <div class="ms-3 d-flex">
+                        <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://www.facebook.com/avcioglumuhendislik" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://www.instagram.com/avcioglumuhendislik" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://wa.me/905076071992" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <img src="avcioglulogo.png" alt="AVCIOĞLU DEMİR ÇELİK" style="height:40px;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link">Anasayfa</a>
+                        <a href="umraniye-hakkimizda.html" class="nav-item nav-link">Hakkımızda</a>
+                        <a href="umraniye-hizmetler.html" class="nav-item nav-link active">Hizmetler</a>
+                        <a href="umraniye-iletisim.html" class="nav-item nav-link">İletişim</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-block">
+                        <a href="umraniye-iletisim.html" class="btn btn-primary py-2 px-3">Teklif Al</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
     <!-- Navbar End -->
 
     <!-- Page Title Start -->
@@ -233,20 +261,20 @@
                     <!-- Contact Form -->
                     <div class="bg-primary p-5 rounded mb-5 wow fadeInUp" data-wow-delay="0.5s">
                         <h4 class="text-white mb-4">Hızlı Teklif Talebinde Bulunun</h4>
-                        <form>
+                        <form id="quoteForm">
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Adınız*" required>
+                                <input type="text" name="from_name" class="form-control" placeholder="Adınız*" required>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="E-posta*" required>
+                                <input type="email" name="from_email" class="form-control" placeholder="E-posta*" required>
                             </div>
                             <div class="mb-3">
-                                <input type="tel" class="form-control" placeholder="Telefon*" required>
+                                <input type="tel" name="phone" class="form-control" placeholder="Telefon*" required>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" rows="3" placeholder="Proje Detayları*"></textarea>
+                                <textarea class="form-control" name="message" rows="3" placeholder="Proje Detayları*"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-light w-100">Teklif İste</button>
+                            <button type="submit" class="btn btn-light w-100" id="quoteSubmitBtn">Teklif İste</button>
                         </form>
                     </div>
 
@@ -410,6 +438,78 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- EmailJS Quote Form Handler -->
+    <script>
+        (function () {
+            const EMAILJS_PUBLIC_KEY = 'SwkfkaS5esIh5B5bp';
+            const EMAILJS_SERVICE_ID = 'service_kfulynj';
+            const EMAILJS_TEMPLATE_ID = 'template_1pntwva';
+            const RECIPIENT_EMAIL = 'avcioglumuhendislik34@gmail.com';
+
+            emailjs.init(EMAILJS_PUBLIC_KEY);
+
+            const quoteForm = document.getElementById('quoteForm');
+            if (!quoteForm) return;
+
+            quoteForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                const submitBtn = document.getElementById('quoteSubmitBtn');
+                const originalText = submitBtn.innerText;
+                submitBtn.disabled = true;
+                submitBtn.innerText = 'Gönderiliyor...';
+
+                const formData = new FormData(this);
+                const fromName = formData.get('from_name') || '';
+                const fromEmail = formData.get('from_email') || '';
+                const phone = formData.get('phone') || '-';
+                const userMessage = formData.get('message') || '';
+
+                const templateParams = {
+                    to_email: RECIPIENT_EMAIL,
+                    to_name: 'AVCIOĞLU DEMİR ÇELİK',
+                    reply_to: fromEmail,
+                    from_name: fromName,
+                    from_email: fromEmail,
+                    name: fromName,
+                    email: fromEmail,
+                    phone: phone,
+                    tel: phone,
+                    subject: 'Trapez Saç Çevirme - Teklif Talebi',
+                    title: 'Trapez Saç Çevirme - Teklif Talebi',
+                    user_message: userMessage,
+                    message: [
+                        'Trapez Saç Çevirme - Yeni Teklif Talebi',
+                        '',
+                        'Ad Soyad: ' + fromName,
+                        'E-posta: ' + fromEmail,
+                        'Telefon: ' + phone,
+                        '',
+                        'Proje Detayları:',
+                        userMessage
+                    ].join('\n')
+                };
+
+                emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+                    .then(function () {
+                        alert('Teklif talebiniz başarıyla gönderildi! En kısa sürede dönüş yapacağız.');
+                        quoteForm.reset();
+                    })
+                    .catch(function (error) {
+                        console.error('EmailJS error:', error);
+                        alert('Gönderilemedi. Lütfen daha sonra tekrar deneyiniz veya bizi arayınız.');
+                    })
+                    .finally(function () {
+                        submitBtn.disabled = false;
+                        submitBtn.innerText = originalText;
+                    });
+            });
+        })();
+    </script>
 
     <!-- WhatsApp Floating Button -->
     <div class="whatsapp-container">
