@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.avcioglumuhendislik.com/sitemap.xml
+Sitemap: https://www.avcioglumuhendislik.com.tr/sitemap.xml
 
 # Disallow admin or private directories if any
 Disallow: /admin/
@@ -16,4 +16,3 @@ Allow: /lib/
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
-
