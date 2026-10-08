@@ -7,7 +7,7 @@
     <!-- Ana Sayfa -->
     <url>
         <loc>https://www.avcioglumuhendislik.com.tr/</loc>
-        <lastmod>2026-06-25</lastmod>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -15,15 +15,71 @@
     <!-- Hakkımızda -->
     <url>
         <loc>https://www.avcioglumuhendislik.com.tr/umraniye-hakkimizda.html</loc>
-        <lastmod>2026-06-25</lastmod>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
-    <!-- Hizmetler -->
+    <!-- Hizmetler Ana Listesi -->
     <url>
         <loc>https://www.avcioglumuhendislik.com.tr/umraniye-hizmetler.html</loc>
-        <lastmod>2026-06-25</lastmod>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hizmet 01: Ferforje & Bahçe Kapısı -->
+    <url>
+        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-ferforje-kapi.html</loc>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hizmet 02: Merdiven Korkuluğu -->
+    <url>
+        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-merdiven-korkulugu.html</loc>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hizmet 03: Balkon & Teras Korkuluğu -->
+    <url>
+        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-balkon-korkulugu.html</loc>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hizmet 04: Bahçe Çiti & Panel -->
+    <url>
+        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-bahce-citi.html</loc>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hizmet 05: Özel Tasarım Ferforje -->
+    <url>
+        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-ozel-tasarim-ferforje.html</loc>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hizmet 06: Kaynak & Yapısal Montaj -->
+    <url>
+        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-kaynak-montaj.html</loc>
+        <lastmod>2026-10-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Hizmet 07: Trapez Sac Çevirme -->
+    <url>
+        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-trapez-sac-cevirme.html</loc>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -31,7 +87,7 @@
     <!-- İletişim -->
     <url>
         <loc>https://www.avcioglumuhendislik.com.tr/umraniye-iletisim.html</loc>
-        <lastmod>2026-06-25</lastmod>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -39,17 +95,9 @@
     <!-- Referanslar -->
     <url>
         <loc>https://www.avcioglumuhendislik.com.tr/umraniye-referanslar.html</loc>
-        <lastmod>2026-06-25</lastmod>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-    </url>
-    
-    <!-- Trapez Sac Çevirme Hizmeti -->
-    <url>
-        <loc>https://www.avcioglumuhendislik.com.tr/umraniye-trapez-sac-cevirme.html</loc>
-        <lastmod>2026-06-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
     
 </urlset>
