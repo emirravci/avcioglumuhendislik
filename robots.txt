@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.avcioglumuhendislik.com.tr/sitemap.xml
+Sitemap: https://www.avciogludemircelik.com.tr/sitemap.xml
 
 # Disallow admin or private directories if any
 Disallow: /admin/
